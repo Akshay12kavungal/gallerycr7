@@ -4,7 +4,7 @@ from customer.views import CustomerListing
 from .views import upload_image
 
 urlpatterns = [
-   path('',views.home,name="home"),
+   path('',views.login,name="login"),
    path('home',views.home,name="home"),
 
    path('signup',views.signup,name="signup"),
