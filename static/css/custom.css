@@ -1,0 +1,47 @@
+/* Custom Navbar Styling */
+.navbar {
+    background-color: #0056b3; /* Change this color to your desired color */
+    padding: 30px; /* Adjust the padding to change the height */
+}
+
+.navbar-brand {
+    color: black; !important;
+}
+
+.navbar-nav .nav-link {
+    color: black; !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightblue; !important;
+}
+
+/* Custom Carousel Styling */
+.carousel-inner {
+    border-radius: 10px;
+}
+
+/* Custom Card Styling */
+.card {
+    border: none;
+
+}
+
+.card-title,
+.card-text {
+    color: #333;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+/* Custom Footer Styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+/* Add more custom styles as needed */
